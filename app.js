@@ -22,9 +22,7 @@ function adicionarAmigo(){
     nomeAdicionado = document.querySelector('input').value;
     verificarNomeAdicionado(nomeAdicionado);
     limparCampo();
-
     exibirLista();
-    console.log(listaDenomesAdicionados);
 }
 
 function exibirLista(){
@@ -46,9 +44,7 @@ function sortearAmigo(){
 
     document.getElementById('resultado').innerHTML = ''; 
     
-    exibirTextoNaTela('resultado', 'O amigo secreto sorteado é: ' + listaDenomesAdicionados[numeroSorteado]); 
-    console.log(numeroSorteado);
-        
+    exibirTextoNaTela('resultado', 'O amigo secreto sorteado é: ' + listaDenomesAdicionados[numeroSorteado]);         
     document.getElementById('listaAmigos').innerHTML = ''; 
     listaDenomesAdicionados = '';
 
