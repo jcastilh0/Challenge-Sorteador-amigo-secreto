@@ -1,10 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #cf7ae9;
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-tertiary: #b717df;
+    --color-button: #9b15bd;
+    --color-button-hover: #5b1068;
+    --color-text-button: #ffffff;
+    --color-text-list: #6d0283;
     --color-white: #FFFFFF;
 }
 
@@ -109,7 +110,7 @@ button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    border: 2px solid #000;
+    border: 2px solid #380241;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -117,18 +118,18 @@ button {
 
 .button-add {
     background-color: var(--color-tertiary);
-    color: var(--color-text);
+    color: var(--color-text-button);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #5b1068;
 }
 
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
+    color: var(--color-text-list);
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
@@ -136,7 +137,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #c934c9;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
